@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "lib": ["esnext"],
+    "types": ["node", "jest"],
+    "baseUrl": "./"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
